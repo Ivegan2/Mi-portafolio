@@ -142,7 +142,7 @@ section h2 {
     justify-content: center;
 }
 #Acerca-de-mi .img-container {
-    background-image: url("./media/somos.jpg");
+    background-image: url("media/somos.jpg");
         background-size: cover;
         background-position: center center;
         height: 450px;
@@ -207,7 +207,7 @@ section h2 {
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("./media/front-end-cropped.jpg");
+    ,url("media/front-end-cropped.jpg");
     border-radius: 20px;
 }
 
@@ -217,7 +217,7 @@ section h2 {
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("./media/full-stack-cropped.jpg");
+    ,url("media/full-stack-cropped.jpg");
     border-radius: 20px;
 }
 
@@ -227,7 +227,7 @@ section h2 {
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("./media/python-cropped.jpg");
+    ,url("media/python-cropped.jpg");
     border-radius: 20px; 
 }
 /* Tarjeta base */
