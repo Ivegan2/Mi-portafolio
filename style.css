@@ -64,7 +64,7 @@ header a{
     color: rgb(149, 143, 143);
 }
 
-  
+
 /* Navegación */
 nav ul {
     background: #484848;
@@ -159,7 +159,6 @@ section h2 {
     padding: 150px 12px;
     background-color: whitesmoke;
     text-align: center;
-   
 }
 
 #experiencia h2{
@@ -231,7 +230,7 @@ section h2 {
     border-radius: 20px; 
 }
 /* Tarjeta base */
- .carta {
+.carta {
     background: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -240,10 +239,10 @@ section h2 {
     margin: 10px;
     position: relative;
     overflow: hidden;
-  }
-  
+}
+
     /* Texto adicional inicialmente oculto */
-  .hidden-text {
+.hidden-text {
     display: none; /* Ocultamos el texto */
     width: 100%;
     max-width: 600px;
@@ -253,11 +252,10 @@ section h2 {
     font-size: 1.0em;
     line-height: 1.5;
     text-align: justify;
-  }
-  
-  
+}
+
     /* Botón interactivo */
-  .toggle-button {
+.toggle-button {
     background: #28a745;
     color: white;
     border: none;
@@ -267,15 +265,14 @@ section h2 {
     cursor: pointer;
     transition: transform 0.2s, background-color 0.3s;
     
-  }
-  
+}
+
     /* Efecto de hover */
-  .toggle-button:hover {
+.toggle-button:hover {
     transform: scale(1.1); /* Efecto de agrandamiento */
     background: #218838; /* Cambia a un verde más oscuro */
-  }
+}
 
-  
 
     /* Estilo para animación de las secciones */
 section {
@@ -303,7 +300,7 @@ a {
 
 a:hover {
     text-decoration: underline;
-    color: #d0e664;
+    color: #fefff9;
 }
 
     /* Footer */
@@ -314,6 +311,59 @@ footer {
     padding: 15px 0;
     margin-top: 20px;
 }
+/* FORMULARIO DE CONTACTO */
+.contact-form{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    max-width:700px;
+    margin:0 auto}
+
+.form-row label{
+    display:block;
+    font-weight:600;
+    margin-bottom:6px}
+
+.form-row input,.form-row textarea{
+    width:100%;
+    padding:12px;
+    border-radius:8px;
+    border:1px solid rgba(255,255,255,.06);
+    background:transparent;
+    color:inherit;
+    transition:background .25s, border-color .25s}
+
+.form-row input:focus,.form-row textarea:focus{
+    outline:none;
+    border-color:rgb(5, 142, 35);
+    background:rgba(255,255,255,0.02)}
+
+.form-actions{
+    display:flex;
+    gap:12px;
+    align-items:center}
+    
+.btn{
+    display:inline-block;
+    padding:10px 16px;
+    border-radius:10px;
+    border:0;
+    cursor:pointer;
+    font-weight:700}
+
+.btn-primary{
+    background:var(--accent);
+    color:#08b005}
+
+.btn-ghost{
+    background:transparent;
+    color:var(--muted);
+    border:1px solid rgba(255, 255, 255, 0.05);
+    padding:9px 14px}
+
+/* ICONS */
+.icon-link img{width:34px;opacity:.95;filter:drop-shadow(0 6px 16px rgba(0,0,0,.45));transition:transform .25s}
+.icon-link img:hover{transform:translateY(-4px)}
 
     /* Estilos para los enlaces de contacto */
 ul {
